@@ -1,0 +1,5 @@
+package assignment12;
+
+public enum Department {
+    COMPUTER_SCIENCE, MECHANICAL, ELECTRONIC, ELECTRICAL, TEXTTILE, SECURITY, CHEMICAL, ELECTRIC
+}
