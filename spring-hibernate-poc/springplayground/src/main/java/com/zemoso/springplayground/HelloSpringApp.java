@@ -20,3 +20,19 @@ public class HelloSpringApp {
         context.close();
     }
 }
+
+
+/*
+        // Code to print all the created bean in the Spring container
+        // Get all bean definition names
+
+        // Read spring config file
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+        // Logic to get the all bean name
+        String[] beanNames = context.getBeanDefinitionNames();
+        // Print all beans
+        for (String beanName : beanNames) {
+            System.out.println("Bean name: " + beanName);
+        }
+ */
