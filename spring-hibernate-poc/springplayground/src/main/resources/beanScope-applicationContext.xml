@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+
+    <!-- Creation of beans -->
+    <bean id="myFortuneService"
+          class="com.zemoso.springplayground.HappyFortuneService">
+    </bean>
+    <bean id="myCoach"
+          class="com.zemoso.springplayground.BassBallCoach"
+            scope="prototype">
+        <!--Setup constructor injection-->
+        <constructor-arg ref="myFortuneService"/>
+    </bean>
+
+
+    <!--    <bean id="myCricketCoach"-->
+    <!--          class="com.zemoso.springplayground.CricketCoach">-->
+    <!--        &lt;!&ndash; Setup setter injection  &ndash;&gt;-->
+    <!--        <property name="fortuneService" ref="myFortuneService" />-->
+    <!--        &lt;!&ndash; Inject literal values &ndash;&gt;-->
+    <!--        <property name="emailAddress" value="${pro.email}" />-->
+    <!--        <property name="team" value="${pro.team}" />-->
+    <!--    </bean>-->
+
+</beans>
+
+
