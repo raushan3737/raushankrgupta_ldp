@@ -1,0 +1,12 @@
+2023-06-14 00:02:33 => [AroundDemoApp] [INFO] Reading the configuration file...
+2023-06-14 00:02:35 => [AroundDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-14 00:02:35 => [AroundDemoApp] [INFO] 
+Main program: AroundDemoApp
+2023-06-14 00:02:35 => [AroundDemoApp] [INFO] Calling getFortune() method
+2023-06-14 00:02:35 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @Around on method: TrafficFortuneService.getFortune()
+2023-06-14 00:02:40 => [MyDemoLoggingAspect] [INFO] 
+===>>> Duration while method is executing: 5.034
+2023-06-14 00:02:40 => [AroundDemoApp] [INFO] Data returned by getFortune(): Expect Heavy traffic this morning
+2023-06-14 00:02:40 => [AroundDemoApp] [INFO] Finished!!

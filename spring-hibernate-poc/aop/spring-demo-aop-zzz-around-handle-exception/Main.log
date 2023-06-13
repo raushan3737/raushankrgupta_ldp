@@ -1,0 +1,28 @@
+2023-06-14 00:27:08 => [AroundHandleExceptionDemoApp] [INFO] Reading the configuration file...
+2023-06-14 00:27:11 => [AroundHandleExceptionDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-14 00:27:11 => [AroundHandleExceptionDemoApp] [INFO] 
+Main program: AroundDemoApp
+2023-06-14 00:27:11 => [AroundHandleExceptionDemoApp] [INFO] Calling getFortune() method
+2023-06-14 00:27:11 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @Around on method: TrafficFortuneService.getFortune(..)
+2023-06-14 00:27:11 => [TrafficFortuneService] [ERROR] Runtime exception is thrown...
+2023-06-14 00:27:11 => [MyDemoLoggingAspect] [WARN] Failed to run the method: Major accident! Highway is closed!
+2023-06-14 00:27:11 => [MyDemoLoggingAspect] [INFO] 
+===>>> Duration while method is executing: 0.033
+2023-06-14 00:27:11 => [AroundHandleExceptionDemoApp] [INFO] Data returned by getFortune() is: Major accident! But no worries, your private AOP helicopter is on the way!
+2023-06-14 00:27:11 => [AroundHandleExceptionDemoApp] [INFO] Finished!!
+
+
+
+2023-06-14 00:34:21 => [AroundHandleExceptionDemoApp] [INFO] Reading the configuration file...
+2023-06-14 00:34:24 => [AroundHandleExceptionDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-14 00:34:24 => [AroundHandleExceptionDemoApp] [INFO] 
+Main program: AroundDemoApp
+2023-06-14 00:34:24 => [AroundHandleExceptionDemoApp] [INFO] Calling getFortune() method
+2023-06-14 00:34:24 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @Around on method: TrafficFortuneService.getFortune(..)
+2023-06-14 00:34:24 => [TrafficFortuneService] [ERROR] Runtime exception is thrown...
+2023-06-14 00:34:24 => [MyDemoLoggingAspect] [WARN] Failed to run the method: Major accident! Highway is closed!
+2023-06-14 00:34:24 => [MyDemoLoggingAspect] [ERROR] Rethrowing the exception to the caller: 

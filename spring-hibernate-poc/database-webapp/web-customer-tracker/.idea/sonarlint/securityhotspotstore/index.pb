@@ -21,9 +21,11 @@ I
 src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
 m
 =src/main/java/com/zemoso/springdemo/testdb/TestDbServlet.java,c\7\c75e733f8686933daea0b2ed9f8367e444230446
+S
+#src/main/resources/log4j.properties,7\5\755950bb690295904a49d36e60958901c54013b8
 ^
 .src/main/webapp/WEB-INF/view/customer-form.jsp,f\c\fc4c176e94beb0c24b7e565ce40f3234eb9a3d23
-8
-Main.log,0\8\0865be4b1770a119eb3bb0020f57483f34491559
 _
 /src/main/webapp/WEB-INF/view/list-customers.jsp,3\8\381c7702ac08b9c2004a5ae15b21ce418b23553f
+8
+Main.log,0\8\0865be4b1770a119eb3bb0020f57483f34491559

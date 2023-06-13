@@ -21,6 +21,8 @@ h
 8src/main/java/com/zemoso/springdemo/entity/Customer.java,1\6\163ed8eba773e7801ffcea739f7aaf32abb015a3
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+S
+#src/main/resources/log4j.properties,7\5\755950bb690295904a49d36e60958901c54013b8
 ^
 .src/main/webapp/WEB-INF/view/customer-form.jsp,f\c\fc4c176e94beb0c24b7e565ce40f3234eb9a3d23
 _
