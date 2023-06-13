@@ -1,0 +1,49 @@
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerController.listCustomers(..)
+=> [CRMLoggingAspect] ===>>> argument: {}
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerService.getCustomers()
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerDAO.getCustomers()
+Hibernate: select customer0_.id as id1_0_, customer0_.email as email2_0_, customer0_.first_name as first_na3_0_, customer0_.last_name as last_nam4_0_ from customer customer0_ order by customer0_.last_name
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerDAO.getCustomers()
+=> [CRMLoggingAspect] ===>>> result: [Customer(id=6, firstName=raushan, lastName=gupta, email=raushan@gmail.com), Customer(id=7, firstName=Akash, lastName=Gupta, email=akashzee@gmail.com), Customer(id=10, firstName=Anil, lastName=gupta, email=akash@gmail.comm), Customer(id=1, firstName=David, lastName=Malon, email=davidmalon@luv2code.com), Customer(id=2, firstName=John, lastName=Malon, email=john@luv2code.com), Customer(id=4, firstName=Mary, lastName=Public, email=mary@luv2code.com), Customer(id=3, firstName=Ajay, lastName=Rao, email=ajay@luv2code.com)]
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerService.getCustomers()
+=> [CRMLoggingAspect] ===>>> result: [Customer(id=6, firstName=raushan, lastName=gupta, email=raushan@gmail.com), Customer(id=7, firstName=Akash, lastName=Gupta, email=akashzee@gmail.com), Customer(id=10, firstName=Anil, lastName=gupta, email=akash@gmail.comm), Customer(id=1, firstName=David, lastName=Malon, email=davidmalon@luv2code.com), Customer(id=2, firstName=John, lastName=Malon, email=john@luv2code.com), Customer(id=4, firstName=Mary, lastName=Public, email=mary@luv2code.com), Customer(id=3, firstName=Ajay, lastName=Rao, email=ajay@luv2code.com)]
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerController.listCustomers(..)
+=> [CRMLoggingAspect] ===>>> result: list-customers
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerController.showFormForUpdate(..)
+=> [CRMLoggingAspect] ===>>> argument: 6
+=> [CRMLoggingAspect] ===>>> argument: {customerId=6, org.springframework.validation.BindingResult.customerId=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerService.getCustomer(..)
+=> [CRMLoggingAspect] ===>>> argument: 6
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerDAO.getCustomer(..)
+=> [CRMLoggingAspect] ===>>> argument: 6
+Hibernate: select customer0_.id as id1_0_0_, customer0_.email as email2_0_0_, customer0_.first_name as first_na3_0_0_, customer0_.last_name as last_nam4_0_0_ from customer customer0_ where customer0_.id=?
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerDAO.getCustomer(..)
+=> [CRMLoggingAspect] ===>>> result: Customer(id=6, firstName=raushan, lastName=gupta, email=raushan@gmail.com)
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerService.getCustomer(..)
+=> [CRMLoggingAspect] ===>>> result: Customer(id=6, firstName=raushan, lastName=gupta, email=raushan@gmail.com)
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerController.showFormForUpdate(..)
+=> [CRMLoggingAspect] ===>>> result: customer-form
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerController.saveCustomer(..)
+=> [CRMLoggingAspect] ===>>> argument: Customer(id=6, firstName=Raushan, lastName=Gupta, email=raushan@gmail.com)
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerService.saveCustomer(..)
+=> [CRMLoggingAspect] ===>>> argument: Customer(id=6, firstName=Raushan, lastName=Gupta, email=raushan@gmail.com)
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerDAO.saveCustomer(..)
+=> [CRMLoggingAspect] ===>>> argument: Customer(id=6, firstName=Raushan, lastName=Gupta, email=raushan@gmail.com)
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerDAO.saveCustomer(..)
+=> [CRMLoggingAspect] ===>>> result: null
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerService.saveCustomer(..)
+=> [CRMLoggingAspect] ===>>> result: null
+Hibernate: update customer set email=?, first_name=?, last_name=? where id=?
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerController.saveCustomer(..)
+=> [CRMLoggingAspect] ===>>> result: redirect:/customer/list
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerController.listCustomers(..)
+=> [CRMLoggingAspect] ===>>> argument: {}
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerService.getCustomers()
+=> [CRMLoggingAspect] ===>>> in @Before: calling method CustomerDAO.getCustomers()
+Hibernate: select customer0_.id as id1_0_, customer0_.email as email2_0_, customer0_.first_name as first_na3_0_, customer0_.last_name as last_nam4_0_ from customer customer0_ order by customer0_.last_name
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerDAO.getCustomers()
+=> [CRMLoggingAspect] ===>>> result: [Customer(id=6, firstName=Raushan, lastName=Gupta, email=raushan@gmail.com), Customer(id=7, firstName=Akash, lastName=Gupta, email=akashzee@gmail.com), Customer(id=10, firstName=Anil, lastName=gupta, email=akash@gmail.comm), Customer(id=1, firstName=David, lastName=Malon, email=davidmalon@luv2code.com), Customer(id=2, firstName=John, lastName=Malon, email=john@luv2code.com), Customer(id=4, firstName=Mary, lastName=Public, email=mary@luv2code.com), Customer(id=3, firstName=Ajay, lastName=Rao, email=ajay@luv2code.com)]
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerService.getCustomers()
+=> [CRMLoggingAspect] ===>>> result: [Customer(id=6, firstName=Raushan, lastName=Gupta, email=raushan@gmail.com), Customer(id=7, firstName=Akash, lastName=Gupta, email=akashzee@gmail.com), Customer(id=10, firstName=Anil, lastName=gupta, email=akash@gmail.comm), Customer(id=1, firstName=David, lastName=Malon, email=davidmalon@luv2code.com), Customer(id=2, firstName=John, lastName=Malon, email=john@luv2code.com), Customer(id=4, firstName=Mary, lastName=Public, email=mary@luv2code.com), Customer(id=3, firstName=Ajay, lastName=Rao, email=ajay@luv2code.com)]
+=> [CRMLoggingAspect] ===>>> in  @AfterReturning: from method CustomerController.listCustomers(..)
+=> [CRMLoggingAspect] ===>>> result: list-customers
