@@ -1,0 +1,2 @@
+2023-06-08 17:31:08 => [TestJDBC] [INFO] Connecting to the database: jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC
+2023-06-08 17:31:10 => [TestJDBC] [INFO] Connection successful to the database: jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC

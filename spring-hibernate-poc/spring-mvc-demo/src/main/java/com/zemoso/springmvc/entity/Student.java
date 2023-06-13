@@ -7,6 +7,16 @@ public class Student {
     private String firstName;
     private String lastName;
     private String country;
+    private String email ;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     private LinkedHashMap<String, String> countryOptions;
 
     private String[] familiarOS;

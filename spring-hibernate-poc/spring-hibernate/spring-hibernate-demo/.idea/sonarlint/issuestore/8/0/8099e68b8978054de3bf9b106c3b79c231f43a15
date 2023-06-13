@@ -1,0 +1,10 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Èš¹Ä8‹ÜüÎ‰1
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(œôìú8ŒÜüÎ‰1
+I
+java:S1874!",Remove this use of "save"; it is deprecated.(ÚòÂ8ÆşÎ‰1
+I
+java:S1874"",Remove this use of "save"; it is deprecated.(‘¥É™8ÆşÎ‰1
+H
+java:S1874#",Remove this use of "save"; it is deprecated.(ÛÏÖ8ÆşÎ‰1
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ãÉ®îüÿÿÿÿ8ÜüÎ‰1

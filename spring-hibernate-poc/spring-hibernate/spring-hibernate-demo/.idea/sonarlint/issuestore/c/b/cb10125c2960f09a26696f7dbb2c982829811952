@@ -1,0 +1,7 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(È°Ï”8ñµÓÑ‰1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(Ù²è×ýÿÿÿÿ8òµÓÑ‰1
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(ý†ÑÒ8óµÓÑ‰1
+U
+java:S1874/"3Remove this use of "createQuery"; it is deprecated.(ß’óÄþÿÿÿÿ8ùÚØÑ‰1
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(ãÉ®îüÿÿÿÿ8ôµÓÑ‰1

@@ -1,0 +1,6 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(ÔåÔ¹8èÓªô‰1
+T	java:S106:"9Replace this use of System.out or System.err by a logger.(Íª‡d8êÓªô‰1
+I
+java:S1874<",Remove this use of "save"; it is deprecated.(èô¼È8ëÓªô‰1
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(ãÉ®îüÿÿÿÿ8ëÓªô‰1

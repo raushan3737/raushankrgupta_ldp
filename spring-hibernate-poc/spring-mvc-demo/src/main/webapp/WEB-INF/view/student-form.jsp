@@ -12,6 +12,7 @@
     <br><br>
 
     Last name: <form:input path="lastName" required="true" />
+    Email: <form:input path="email" required="true" />
     <br><br>
 
     <form:select path="country" required="true">
@@ -28,6 +29,7 @@
     <br>
     Windows: <form:checkbox path="familiarOS" value="Windows" />
     <br><br>
+
 
     Favorite Language:
     <br>

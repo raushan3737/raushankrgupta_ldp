@@ -1,0 +1,11 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(È°Ï”8ÿÂÇÒ‰1
+K
+java:S1481 ".Remove this unused "myStudent" local variable.(¾ç¢ô8€ÃÇÒ‰1
+T	java:S106'"9Replace this use of System.out or System.err by a logger.(´›ŠH8€ÃÇÒ‰1
+]	java:S125#"<This block of commented-out lines of code should be removed.(Ã÷å›üÿÿÿÿ8€ÃÇÒ‰1
+U
+java:S1874)"3Remove this use of "createQuery"; it is deprecated.(±¶ÁÀþÿÿÿÿ8ÃÇÒ‰1
+U
+java:S1874,"3Remove this use of "createQuery"; it is deprecated.(½®Þ‘ûÿÿÿÿ8ÏñÇÒ‰1
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ãÉ®îüÿÿÿÿ8ÃÇÒ‰1

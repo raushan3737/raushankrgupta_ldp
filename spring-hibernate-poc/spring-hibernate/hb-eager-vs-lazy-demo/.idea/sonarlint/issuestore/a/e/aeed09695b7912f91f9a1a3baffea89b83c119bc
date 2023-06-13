@@ -1,0 +1,7 @@
+
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(ËÁ«µ8½Ïðü‰1
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(Í·€”ûÿÿÿÿ8¿Ïðü‰1
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(ÖÆÅž8¿Ïðü‰1
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(ãÃÖ‹8ÀÏðü‰1
+D
+java:S1068"'Remove this unused "log" private field.(÷ç«Í8ðï×ü‰1

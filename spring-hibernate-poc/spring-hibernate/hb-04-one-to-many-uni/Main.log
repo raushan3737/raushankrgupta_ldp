@@ -1,0 +1,33 @@
+2023-06-09 16:33:19 => [TestJDBC] [INFO] Connecting to the database: jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC
+2023-06-09 16:33:20 => [TestJDBC] [INFO] Connection successful to the database: jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC
+2023-06-09 16:56:25 => [Version] [INFO] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-06-09 16:56:25 => [Environment] [INFO] HHH000406: Using bytecode reflection optimizer
+2023-06-09 16:56:27 => [pooling] [WARN] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-06-09 16:56:27 => [pooling] [INFO] HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-06-09 16:56:27 => [pooling] [INFO] HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+2023-06-09 16:56:27 => [pooling] [INFO] HHH10001001: Connection properties: {password=****, user=hbstudent}
+2023-06-09 16:56:27 => [pooling] [INFO] HHH10001003: Autocommit mode: false
+2023-06-09 16:56:27 => [pooling] [INFO] HHH10001115: Connection pool size: 1 (min=1)
+2023-06-09 16:56:28 => [pooling] [INFO] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+2023-06-09 16:57:41 => [Version] [INFO] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-06-09 16:57:41 => [Environment] [INFO] HHH000406: Using bytecode reflection optimizer
+2023-06-09 16:57:42 => [pooling] [WARN] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-06-09 16:57:42 => [pooling] [INFO] HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-06-09 16:57:42 => [pooling] [INFO] HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+2023-06-09 16:57:42 => [pooling] [INFO] HHH10001001: Connection properties: {password=****, user=hbstudent}
+2023-06-09 16:57:42 => [pooling] [INFO] HHH10001003: Autocommit mode: false
+2023-06-09 16:57:42 => [pooling] [INFO] HHH10001115: Connection pool size: 1 (min=1)
+2023-06-09 16:57:43 => [BytecodeProviderInitiator] [INFO] HHH000021: Bytecode provider name : bytebuddy
+2023-06-09 16:57:45 => [CreateCoursesAndReviewsDemo] [INFO] Saving the course: Course(id=0, title=Pacman- How to score One Million Points, instructor=null, reviews=[Review(id=0, comment=Great one), Review(id=0, comment=Awesome), Review(id=0, comment=Great course ... loved it!)])
+2023-06-09 16:57:45 => [CreateCoursesAndReviewsDemo] [INFO] Course review: Course(id=0, title=Pacman- How to score One Million Points, instructor=null, reviews=[Review(id=0, comment=Great one), Review(id=0, comment=Awesome), Review(id=0, comment=Great course ... loved it!)]) [Review(id=0, comment=Great one), Review(id=0, comment=Awesome), Review(id=0, comment=Great course ... loved it!)]
+2023-06-09 16:57:45 => [CreateCoursesAndReviewsDemo] [INFO] Done!
+2023-06-09 16:57:45 => [pooling] [INFO] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+2023-06-09 17:00:12 => [Version] [INFO] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-06-09 17:00:12 => [Environment] [INFO] HHH000406: Using bytecode reflection optimizer
+2023-06-09 17:00:12 => [pooling] [WARN] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-06-09 17:00:12 => [pooling] [INFO] HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-06-09 17:00:12 => [pooling] [INFO] HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+2023-06-09 17:00:12 => [pooling] [INFO] HHH10001001: Connection properties: {password=****, user=hbstudent}
+2023-06-09 17:00:12 => [pooling] [INFO] HHH10001003: Autocommit mode: false
+2023-06-09 17:00:12 => [pooling] [INFO] HHH10001115: Connection pool size: 1 (min=1)
+2023-06-09 17:00:13 => [pooling] [INFO] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
