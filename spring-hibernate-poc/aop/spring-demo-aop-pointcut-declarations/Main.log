@@ -1,0 +1,23 @@
+2023-06-13 01:13:33 => [MainDemoApp] [INFO] Reading the configuration file...
+2023-06-13 01:13:34 => [MainDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-13 01:13:34 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:13:34 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:13:34 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: ADDING MY DB WORK: ADDING AN ACCOUNT
+2023-06-13 01:13:34 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:13:34 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:13:34 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO:doWork()
+2023-06-13 01:13:34 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:13:34 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:13:34 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAODOING STUFF: ADDING A MEMBERSHIP ACCOUNT
+2023-06-13 01:13:34 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:13:34 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:13:34 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAO: I'm going to sleep now...

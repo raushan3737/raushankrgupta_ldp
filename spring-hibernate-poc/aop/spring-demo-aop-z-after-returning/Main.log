@@ -1,0 +1,23 @@
+2023-06-13 13:27:59 => [AfterReturningDemoApp] [INFO] Reading the configuration file...
+2023-06-13 13:28:00 => [AfterReturningDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-13 13:28:00 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 13:28:00 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-13 13:28:00 => [MyDemoLoggingAspect] [INFO] Method: List com.zemoso.aopdemo.dao.AccountDAO.findAccounts()
+2023-06-13 13:28:00 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 13:28:00 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @AfterReturning on method:  AccountDAO.findAccounts()
+2023-06-13 13:28:00 => [MyDemoLoggingAspect] [INFO] 
+===>>> result is:  [Account(name=Raushan, level=Platinum), Account(name=Akash, level=Diamond), Account(name=Satwik, level=Gold)]
+2023-06-13 13:28:00 => [MyDemoLoggingAspect] [INFO] 
+===>>> result is:  [Account(name=RAUSHAN, level=Platinum), Account(name=AKASH, level=Diamond), Account(name=SATWIK, level=Gold)]
+2023-06-13 13:28:00 => [AfterReturningDemoApp] [INFO] 
+
+Main Program: AfterReturningDemoApp 
+2023-06-13 13:28:00 => [AfterReturningDemoApp] [INFO] --------------------------------
+2023-06-13 13:28:00 => [AfterReturningDemoApp] [INFO] [Account(name=RAUSHAN, level=Platinum), Account(name=AKASH, level=Diamond), Account(name=SATWIK, level=Gold)]
+
+

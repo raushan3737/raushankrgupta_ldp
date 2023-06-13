@@ -1,0 +1,34 @@
+2023-06-13 09:49:19 => [MainDemoApp] [INFO] Reading the configuration file...
+2023-06-13 09:49:20 => [MainDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-13 09:49:20 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 09:49:20 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 09:49:20 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 09:49:20 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: ADDING MY DB WORK: ADDING AN ACCOUNT
+2023-06-13 09:49:20 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 09:49:20 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 09:49:20 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 09:49:20 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO:doWork()
+2023-06-13 09:49:20 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in setName()
+2023-06-13 09:49:20 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in setServiceCode()
+2023-06-13 09:49:20 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in getName()
+2023-06-13 09:49:20 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 09:49:20 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 09:49:20 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 09:49:20 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAODOING STUFF: ADDING A MEMBERSHIP ACCOUNT
+2023-06-13 09:49:20 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 09:49:20 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 09:49:20 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 09:49:20 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAO: I'm going to sleep now...

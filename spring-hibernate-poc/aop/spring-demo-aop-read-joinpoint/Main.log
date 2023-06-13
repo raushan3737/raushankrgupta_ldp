@@ -1,0 +1,40 @@
+2023-06-13 11:55:58 => [MainDemoApp] [INFO] Reading the configuration file...
+2023-06-13 11:55:59 => [MainDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-13 11:55:59 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] Method: void com.zemoso.aopdemo.dao.AccountDAO.addAccount(Account,boolean)
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] Account name: raushan
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] Account level: plantinum
+2023-06-13 11:55:59 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 11:55:59 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: ADDING MY DB WORK: ADDING AN ACCOUNT
+2023-06-13 11:55:59 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] Method: boolean com.zemoso.aopdemo.dao.AccountDAO.doWork()
+2023-06-13 11:55:59 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 11:55:59 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO:doWork()
+2023-06-13 11:55:59 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in setName()
+2023-06-13 11:55:59 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in setServiceCode()
+2023-06-13 11:55:59 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in getName()
+2023-06-13 11:55:59 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] Method: Boolean com.zemoso.aopdemo.dao.MembershipDAO.addMembershipAccount()
+2023-06-13 11:55:59 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 11:55:59 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAODOING STUFF: ADDING A MEMBERSHIP ACCOUNT
+2023-06-13 11:55:59 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-13 11:55:59 => [MyDemoLoggingAspect] [INFO] Method: void com.zemoso.aopdemo.dao.MembershipDAO.goToSleep()
+2023-06-13 11:55:59 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 11:55:59 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAO: I'm going to sleep now...

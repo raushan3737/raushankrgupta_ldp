@@ -1,0 +1,23 @@
+2023-06-13 14:05:36 => [AfterThrowingDemoApp] [INFO] Reading the configuration file...
+2023-06-13 14:05:37 => [AfterThrowingDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-13 14:05:37 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 14:05:37 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-13 14:05:37 => [MyDemoLoggingAspect] [INFO] Method: List com.zemoso.aopdemo.dao.AccountDAO.findAccounts(boolean)
+2023-06-13 14:05:37 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 14:05:37 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @AfterThrowing on method:  AccountDAO.findAccounts(..)
+2023-06-13 14:05:37 => [MyDemoLoggingAspect] [ERROR] 
+===>>>The exception is:  java.lang.RuntimeException: No soup for you !!!
+2023-06-13 14:05:37 => [AfterThrowingDemoApp] [ERROR] 
+
+Main Program... caught exception: java.lang.RuntimeException: No soup for you !!!
+2023-06-13 14:05:37 => [AfterThrowingDemoApp] [INFO] 
+
+Main Program: AfterThrowingDemoApp
+2023-06-13 14:05:37 => [AfterThrowingDemoApp] [INFO] null
+
+

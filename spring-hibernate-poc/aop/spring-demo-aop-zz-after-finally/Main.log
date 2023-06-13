@@ -1,0 +1,51 @@
+2023-06-13 15:14:40 => [AfterFinallyDemoApp] [INFO] Reading the configuration file...
+2023-06-13 15:14:42 => [AfterFinallyDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-13 15:14:42 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 15:14:42 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-13 15:14:42 => [MyDemoLoggingAspect] [INFO] Method: List com.zemoso.aopdemo.dao.AccountDAO.findAccounts(boolean)
+2023-06-13 15:14:42 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 15:14:42 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @AfterThrowing on method:  AccountDAO.findAccounts(..)
+2023-06-13 15:14:42 => [MyDemoLoggingAspect] [ERROR] 
+===>>>The exception is:  java.lang.RuntimeException: No soup for you !!!
+2023-06-13 15:14:42 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @After (finally) on method: AccountDAO.findAccounts(..)
+2023-06-13 15:14:42 => [AfterFinallyDemoApp] [ERROR] 
+
+Main Program... caught exception: java.lang.RuntimeException: No soup for you !!!
+2023-06-13 15:14:42 => [AfterFinallyDemoApp] [INFO] 
+
+Main Program: AfterThrowingDemoApp
+2023-06-13 15:14:42 => [AfterFinallyDemoApp] [INFO] null
+
+
+
+
+2023-06-13 15:19:16 => [AfterFinallyDemoApp] [INFO] Reading the configuration file...
+2023-06-13 15:19:18 => [AfterFinallyDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-13 15:19:18 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-13 15:19:18 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-13 15:19:18 => [MyDemoLoggingAspect] [INFO] Method: List com.zemoso.aopdemo.dao.AccountDAO.findAccounts(boolean)
+2023-06-13 15:19:18 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 15:19:18 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @AfterReturning on method:  AccountDAO.findAccounts(..)
+2023-06-13 15:19:18 => [MyDemoLoggingAspect] [INFO] 
+===>>> result is:  [Account(name=Raushan, level=Platinum), Account(name=Akash, level=Diamond), Account(name=Satwik, level=Gold)]
+2023-06-13 15:19:18 => [MyDemoLoggingAspect] [INFO] 
+===>>> result is:  [Account(name=RAUSHAN, level=Platinum), Account(name=AKASH, level=Diamond), Account(name=SATWIK, level=Gold)]
+2023-06-13 15:19:18 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @After (finally) on method: AccountDAO.findAccounts(..)
+2023-06-13 15:19:18 => [AfterFinallyDemoApp] [INFO] 
+
+Main Program: AfterThrowingDemoApp
+2023-06-13 15:19:18 => [AfterFinallyDemoApp] [INFO] [Account(name=RAUSHAN, level=Platinum), Account(name=AKASH, level=Diamond), Account(name=SATWIK, level=Gold)]
+
+

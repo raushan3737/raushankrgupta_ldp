@@ -1,0 +1,67 @@
+2023-06-13 01:30:36 => [MainDemoApp] [INFO] Reading the configuration file...
+2023-06-13 01:30:37 => [MainDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:30:37 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: ADDING MY DB WORK: ADDING AN ACCOUNT
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:30:37 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO:doWork()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:30:37 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in setName()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:30:37 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in setServiceCode()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:30:37 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in getName()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:30:37 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAODOING STUFF: ADDING A MEMBERSHIP ACCOUNT
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:30:37 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:30:37 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAO: I'm going to sleep now...
+
+
+
+2023-06-13 01:40:56 => [MainDemoApp] [INFO] Reading the configuration file...
+2023-06-13 01:40:57 => [MainDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-13 01:40:57 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:40:57 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:40:57 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: ADDING MY DB WORK: ADDING AN ACCOUNT
+2023-06-13 01:40:57 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:40:57 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:40:57 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO:doWork()
+2023-06-13 01:40:57 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in setName()
+2023-06-13 01:40:57 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in setServiceCode()
+2023-06-13 01:40:57 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: in getName()
+2023-06-13 01:40:57 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:40:57 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:40:57 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAODOING STUFF: ADDING A MEMBERSHIP ACCOUNT
+2023-06-13 01:40:57 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 01:40:57 => [MyDemoLoggingAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-13 01:40:57 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAO: I'm going to sleep now...

@@ -1,0 +1,14 @@
+2023-06-13 00:49:46 => [MainDemoApp] [INFO] Reading the configuration file...
+2023-06-13 00:49:47 => [MainDemoApp] [INFO] Getting beans from the Spring container..
+2023-06-13 00:49:47 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 00:49:47 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO: ADDING MY DB WORK: ADDING AN ACCOUNT
+2023-06-13 00:49:47 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 00:49:47 => [AccountDAO] [INFO] class com.zemoso.aopdemo.dao.AccountDAO:doWork()
+2023-06-13 00:49:47 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 00:49:47 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAODOING STUFF: ADDING A MEMBERSHIP ACCOUNT
+2023-06-13 00:49:47 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on addAccount()
+2023-06-13 00:49:47 => [MembershipDAO] [INFO] class com.zemoso.aopdemo.dao.MembershipDAO: I'm going to sleep now...
