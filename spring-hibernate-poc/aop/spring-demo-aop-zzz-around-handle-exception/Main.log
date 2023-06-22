@@ -26,3 +26,52 @@ Main program: AroundDemoApp
 2023-06-14 00:34:24 => [TrafficFortuneService] [ERROR] Runtime exception is thrown...
 2023-06-14 00:34:24 => [MyDemoLoggingAspect] [WARN] Failed to run the method: Major accident! Highway is closed!
 2023-06-14 00:34:24 => [MyDemoLoggingAspect] [ERROR] Rethrowing the exception to the caller: 
+2023-06-20 15:24:17 => [AfterFinallyDemoApp] [INFO] Reading the configuration file...
+2023-06-20 15:24:18 => [AfterFinallyDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-20 15:24:18 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-20 15:24:18 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-20 15:24:18 => [MyDemoLoggingAspect] [INFO] Method: List com.zemoso.aopdemo.dao.AccountDAO.findAccounts(boolean)
+2023-06-20 15:24:18 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-20 15:24:18 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @AfterReturning on method:  AccountDAO.findAccounts(..)
+2023-06-20 15:24:18 => [MyDemoLoggingAspect] [INFO] 
+===>>> result is:  [Account(name=Raushan, level=Platinum), Account(name=Akash, level=Diamond), Account(name=Satwik, level=Gold)]
+2023-06-20 15:24:18 => [MyDemoLoggingAspect] [INFO] 
+===>>> result is:  [Account(name=Raushan, level=Platinum), Account(name=Akash, level=Diamond), Account(name=Satwik, level=Gold)]
+2023-06-20 15:24:18 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @After (finally) on method: AccountDAO.findAccounts(..)
+2023-06-20 15:24:18 => [AfterFinallyDemoApp] [INFO] 
+
+Main Program: AfterThrowingDemoApp
+2023-06-20 15:24:18 => [AfterFinallyDemoApp] [INFO] [Account(name=Raushan, level=Platinum), Account(name=Akash, level=Diamond), Account(name=Satwik, level=Gold)]
+
+
+2023-06-20 15:29:25 => [AfterFinallyDemoApp] [INFO] Reading the configuration file...
+2023-06-20 15:29:26 => [AfterFinallyDemoApp] [INFO] Getting beans from the Spring container..
+
+2023-06-20 15:29:26 => [myCloudLogAsyncAspect] [INFO] 
+===>>> Logging to Cloud in async fashion
+2023-06-20 15:29:26 => [MyDemoLoggingAspect] [INFO] 
+====>>> Executing @Before advice on method
+2023-06-20 15:29:26 => [MyDemoLoggingAspect] [INFO] hijacked : findAccounts
+2023-06-20 15:29:26 => [MyDemoLoggingAspect] [INFO] Method: List com.zemoso.aopdemo.dao.AccountDAO.findAccounts(boolean)
+2023-06-20 15:29:26 => [MyApiAnalyticsAspect] [INFO] 
+===>>> Performing API analytics
+2023-06-20 15:29:26 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @AfterReturning on method:  AccountDAO.findAccounts(..)
+2023-06-20 15:29:26 => [MyDemoLoggingAspect] [INFO] 
+===>>> result is:  [Account(name=Raushan, level=Platinum), Account(name=Akash, level=Diamond), Account(name=Satwik, level=Gold)]
+2023-06-20 15:29:26 => [MyDemoLoggingAspect] [INFO] 
+===>>> result is:  [Account(name=RAUSHAN, level=Platinum), Account(name=AKASH, level=Diamond), Account(name=SATWIK, level=Gold)]
+2023-06-20 15:29:26 => [MyDemoLoggingAspect] [INFO] 
+===>>> Executing @After (finally) on method: AccountDAO.findAccounts(..)
+2023-06-20 15:29:26 => [AfterFinallyDemoApp] [INFO] 
+
+Main Program: AfterThrowingDemoApp
+2023-06-20 15:29:26 => [AfterFinallyDemoApp] [INFO] [Account(name=RAUSHAN, level=Platinum), Account(name=AKASH, level=Diamond), Account(name=SATWIK, level=Gold)]
+
+
