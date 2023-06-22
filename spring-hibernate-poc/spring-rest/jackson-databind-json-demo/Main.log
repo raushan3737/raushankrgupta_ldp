@@ -1,0 +1,30 @@
+2023-06-15 14:36:44 => [Driver] [INFO] Reading data from json file & set it to the Student entity: 
+2023-06-15 14:36:45 => [Driver] [INFO] Student Details: Student(id=14, firstName=Raushan, lastName=Gupta, active=true, address=Address(street=100 Main St, city=Philadelphia, state=Pennsylvania, zip=19103, country=USA), languages=[Java, C#, Python, Javascript])
+2023-06-15 14:36:45 => [Driver] [INFO] First Name: Raushan
+2023-06-15 14:36:45 => [Driver] [INFO] Language: Java
+2023-06-15 14:36:45 => [Driver] [INFO] Language: C#
+2023-06-15 14:36:45 => [Driver] [INFO] Language: Python
+2023-06-15 14:36:45 => [Driver] [INFO] Language: Javascript
+
+
+2023-06-16 10:14:17 => [Driver] [INFO] Reading data from json file & set it to the Student entity: 
+2023-06-16 10:14:17 => [Driver] [INFO] Student Details: Student(id=14, firstName=Raushan, lastName=Gupta, active=true, address=Address(street=100 Main St, city=Philadelphia, state=Pennsylvania, zip=19103, country=USA), languages=[Java, C#, Python, Javascript])
+2023-06-16 10:14:17 => [Driver] [INFO] First Name: Raushan
+2023-06-16 10:14:17 => [Driver] [INFO] Language: Java
+2023-06-16 10:14:17 => [Driver] [INFO] Language: C#
+2023-06-16 10:14:17 => [Driver] [INFO] Language: Python
+2023-06-16 10:14:17 => [Driver] [INFO] Language: Javascript
+2023-06-16 10:15:43 => [Driver] [INFO] Reading data from json file & set it to the Student entity: 
+2023-06-16 10:15:43 => [Driver] [INFO] Student Details: Student(id=14, firstName=Raushan, lastName=Gupta, active=true, address=Address(street=100 Main St, city=Philadelphia, state=Pennsylvania, zip=19103, country=USA), languages=[Java, C#, Python, Javascript])
+2023-06-16 10:15:43 => [Driver] [INFO] First Name: Raushan
+2023-06-16 10:15:43 => [Driver] [INFO] Language: Java
+2023-06-16 10:15:43 => [Driver] [INFO] Language: C#
+2023-06-16 10:15:43 => [Driver] [INFO] Language: Python
+2023-06-16 10:15:43 => [Driver] [INFO] Language: Javascript
+2023-06-16 11:43:10 => [Driver] [INFO] Reading data from json file & set it to the Student entity: 
+2023-06-16 11:43:11 => [Driver] [INFO] Student Details: Student(id=14, firstName=Raushan, lastName=Gupta, active=true, address=Address(street=100 Main St, city=Philadelphia, state=Pennsylvania, zip=19103, country=USA), languages=[Java, C#, Python, Javascript])
+2023-06-16 11:43:11 => [Driver] [INFO] First Name: Raushan
+2023-06-16 11:43:11 => [Driver] [INFO] Language: Java
+2023-06-16 11:43:11 => [Driver] [INFO] Language: C#
+2023-06-16 11:43:11 => [Driver] [INFO] Language: Python
+2023-06-16 11:43:11 => [Driver] [INFO] Language: Javascript
