@@ -1,0 +1,49 @@
+type Mutation{
+    createBook(book:BookDTO):Book
+}
+
+type Query{
+    allBooks:[Book]
+    getBook(bookId:Int):Book
+}
+
+type Book{
+    id:ID!
+    title:String
+    desc:String
+    author:String
+    price:Float
+    pages:Int
+}
+
+input BookDTO{
+    title:String
+    desc:String
+    author:String
+    price:Float
+    pages:Int
+}
+
+
+# Calling POST method: http://localhost:8009/graphql
+
+#query{
+#    allBooks{
+#        id
+#        title
+#        price
+#    }
+#}
+
+#mutation{
+#    createBook(book:{
+#        title: "My new Book",
+#        desc:"new Desc",
+#        price:400,
+#        pages:125,
+#        author:"raushan"
+#    }){
+#        id
+#        title
+#    }
+#}
